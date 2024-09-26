@@ -44,6 +44,7 @@ const navLinks = [
                     </Link>
                 )
             })}
+            {children}
         </div>
     )
   }
