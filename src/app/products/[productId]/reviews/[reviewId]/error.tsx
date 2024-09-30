@@ -14,4 +14,4 @@ export default function ErrorBoundary({
       {error.message} <button onClick={reset}>Try again</button>
     </div>
   );
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
