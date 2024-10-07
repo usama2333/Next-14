@@ -18,9 +18,9 @@ export const generateMetadata = async ({params}: Props) : Promise<Metadata> => {
 
 export default function ProductDetails({params}: Props ) {
     return(
-        <>
+        <div>
         {/* it receives params which gives the productId from the url */}
          <h1>Products Details {params.productId}</h1>
-        </>
+        </div>
     )
 }

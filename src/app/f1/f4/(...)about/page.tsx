@@ -1,9 +1,9 @@
 export default function InterceptedAbout() {
     return(
-        <>
+        <div>
         <h1>(...) Intercepted about Page</h1>
         
-        </>
+        </div>
     ) 
 }
 

@@ -24,9 +24,9 @@ export default function ReviewDetails({params} : {
       notFound();
     }
     return(
-        <>
+        <div>
         {/* it receives params which gives the productId from the url */}
          <h1>Products {params.productId} Review {params.reviewId}</h1>
-        </>
+        </div>
     )
 }
